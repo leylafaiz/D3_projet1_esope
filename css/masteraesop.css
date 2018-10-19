@@ -36,6 +36,7 @@ header li {
   font-family: 'Inconsolata', monospace;
   color: rgb(255, 255, 255);
   padding: 20px;
+  min-height: 600px;
 }
 
 #section2 {
