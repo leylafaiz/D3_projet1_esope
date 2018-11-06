@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Bai+Jamjuree|Bitter|Dancing+Script|Inconsolata|Libre+Baskerville|Libre+Franklin|Pacifico|Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Kodchasan');
-.tete {
-background: #bdb2dd
-}
-.title {
+@import url('https://fonts.googleapis.com/css?family=Rosario');
+.title h1 {
   font-family: 'Kodchasan', sans-serif;
-  font-size: 70px;
+  font-size:150px;
 }
 h1 {
   font-size: 42px;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
 header {
-  min-height: 50vh;
+  min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-nav {
-
+header a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: 'Rosario', sans-serif;
 }
 
 header li {
@@ -28,7 +28,11 @@ header li {
   padding: 10px;
   margin-bottom: 30px;
   display: inline-block;
-  background: rgb(255, 255, 255);
+  background: #ffffff;
+  color: rgb(255, 255, 255);
+}
+nav {
+ text-decoration-style: none;
 }
 #section1 {
   background: url('images/nuit.jpg') top center no-repeat;
@@ -36,34 +40,58 @@ header li {
   font-family: 'Inconsolata', monospace;
   color: rgb(255, 255, 255);
   padding: 20px;
-  min-height: 600px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2.5px solid rgb(255, 255, 255);
 }
 
 #section2 {
   background: url('images/jungle1.jpg') top center no-repeat;
   font-family: 'Libre Baskerville', serif;
   padding: 20px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2.5px solid rgb(255, 255, 255);
 }
 
 #section3 {
   background: url('images/jungle2.jpg') top center no-repeat;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family: 'Libre Franklin', sans-serif;
   padding: 20px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2.5px solid rgb(255, 255, 255);
 }
 
 #section4 {
   background: url('images/ciel.jpg') top center no-repeat;
   font-family: 'Playfair Display', serif;
   padding: 20px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2.5px solid rgb(255, 255, 255);
 }
 
 #section5 {
   background: url('images/chien.jpg') top center no-repeat;
-  color: rgb(255, 255, 255);
+  color: #000000;
   font-family: 'Dancing Script', cursive;
   padding: 20px;
   font-size: 30px;
+  min height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2.5px solid rgb(255, 255, 255);
 }
 
 #section1 h1 {
@@ -81,6 +109,7 @@ header li {
   text-align: center;
   font-family: 'Anton', sans-serif;
   font-size: 50px;
+  letter-spacing: 0.5rem;
 }
 #section4 h1 {
   text-align: center;
@@ -91,5 +120,31 @@ header li {
   text-align: center;
   font-family: 'Pacifico', cursive;
   font-size: 50px;
-  color: #613c21;
+}
+.fond {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 200px;
+}
+
+footer {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+footer li {
+  list-style-type: none;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  margin-bottom: 30px;
+  display: inline-block;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+}
+.petit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 500px;
 }
